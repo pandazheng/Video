@@ -18,6 +18,8 @@
 		A4A440261711AFB300738A63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A440251711AFB300738A63 /* Default-568h@2x.png */; };
 		A4A440291711AFB300738A63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A440281711AFB300738A63 /* ViewController.m */; };
 		A4A4402C1711AFB300738A63 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A4402A1711AFB300738A63 /* ViewController.xib */; };
+		A4A440331711AFF700738A63 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A440321711AFF700738A63 /* MediaPlayer.framework */; };
+		A4A440371711B07500738A63 /* sample_iTunes.mov in Resources */ = {isa = PBXBuildFile; fileRef = A4A440361711B07500738A63 /* sample_iTunes.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A4A440271711AFB300738A63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4A440281711AFB300738A63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4A4402B1711AFB300738A63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A4A440321711AFF700738A63 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A4A440361711B07500738A63 /* sample_iTunes.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample_iTunes.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A440331711AFF700738A63 /* MediaPlayer.framework in Frameworks */,
 				A4A440101711AFB300738A63 /* UIKit.framework in Frameworks */,
 				A4A440121711AFB300738A63 /* Foundation.framework in Frameworks */,
 				A4A440141711AFB300738A63 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +78,7 @@
 		A4A4400E1711AFB300738A63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4A440321711AFF700738A63 /* MediaPlayer.framework */,
 				A4A4400F1711AFB300738A63 /* UIKit.framework */,
 				A4A440111711AFB300738A63 /* Foundation.framework */,
 				A4A440131711AFB300738A63 /* CoreGraphics.framework */,
@@ -96,6 +102,7 @@
 		A4A440161711AFB300738A63 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4A440361711B07500738A63 /* sample_iTunes.mov */,
 				A4A440171711AFB300738A63 /* Video-Info.plist */,
 				A4A440181711AFB300738A63 /* InfoPlist.strings */,
 				A4A4401B1711AFB300738A63 /* main.m */,
@@ -163,6 +170,7 @@
 				A4A440241711AFB300738A63 /* Default@2x.png in Resources */,
 				A4A440261711AFB300738A63 /* Default-568h@2x.png in Resources */,
 				A4A4402C1711AFB300738A63 /* ViewController.xib in Resources */,
+				A4A440371711B07500738A63 /* sample_iTunes.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
